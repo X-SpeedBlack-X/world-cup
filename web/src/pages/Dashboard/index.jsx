@@ -31,20 +31,20 @@ export function Dashboard() {
 
           <div className="space-y-4">
             <CardPlay
-              timeA={{ slug: "sui" }}
-              timeB={{ slug: "cam" }}
+              teamA={{ slug: "sui" }}
+              teamB={{ slug: "cam" }}
               match={{ time: "7:00" }}
             />
 
             <CardPlay
-              timeA={{ slug: "uru" }}
-              timeB={{ slug: "cor" }}
+              teamA={{ slug: "uru" }}
+              teamB={{ slug: "cor" }}
               match={{ time: "7:00" }}
             />
 
             <CardPlay
-              timeA={{ slug: "por" }}
-              timeB={{ slug: "gan" }}
+              teamA={{ slug: "por" }}
+              teamB={{ slug: "gan" }}
               match={{ time: "7:00" }}
             />
           </div>
